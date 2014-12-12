@@ -13,13 +13,13 @@ devTraining.config(function($stateProvider, $urlRouterProvider) {
         .state('nested.list', {
             url: '/list',
             templateUrl: 'partial-nested-list.html',
-            controller: 'listController'
+            controller: 'nestedController'
         })
         
-        .state('nested.paragraph', {
-            url: '/paragraph',
-            templateUrl: 'partial-nested-paragraph.html',
-            controller: 'paragraphController'
+        .state('nested.table', {
+            url: '/table',
+            templateUrl: 'partial-nested-table.html',
+            controller: 'nestedController'
         })
         
         .state('multi', {
@@ -35,12 +35,8 @@ devTraining.config(function($stateProvider, $urlRouterProvider) {
         });
 });
 
-devTraining.controller('listController', function($scope) {
+devTraining.controller('nestedController', function($scope) {
     $scope.list = ['Mark', 'Sam', 'Spencer'];
-});
-
-devTraining.controller('paragraphController', function($scope) {
-    $scope.paragraph = 'Hey! It is angular panels training!';
 });
 
 devTraining.controller('dashboardController', function($scope) {
