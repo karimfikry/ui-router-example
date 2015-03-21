@@ -7,7 +7,7 @@ Call Scoring uses a number of open source projects to work properly:
 * [AngularJS] - HTML enhanced for web apps!
 * [Twitter Bootstrap] - great UI boilerplate for modern web apps
 * [node.js] - evented I/O for the backend
-
+* [UI Router] - New routing technique for [AngularJS] >= 1.2.x
 
 ### Installation
 
@@ -28,3 +28,4 @@ $ http-server - p :port_number // port_number is parameter. default is 8080
 [node.js]:http://nodejs.org
 [Twitter Bootstrap]:http://twitter.github.com/bootstrap/
 [AngularJS]:http://angularjs.org
+[UI Router]: https://github.com/angular-ui/ui-router

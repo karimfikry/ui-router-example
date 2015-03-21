@@ -36,26 +36,26 @@ devTraining.config(function($stateProvider, $urlRouterProvider) {
 });
 
 devTraining.controller('nestedController', function($scope) {
-    $scope.list = ['Mark', 'Sam', 'Spencer'];
+    $scope.list = ['item1', 'item2', 'item3'];
 });
 
 devTraining.controller('dashboardController', function($scope) {
    
     $scope.staff = [
         {
-            name: 'Calls',
+            name: 'Entry1',
             value: 3
         },
         {
-            name: 'Staff Closing %',
+            name: 'Entry2 %',
             value: '200.0%'
         },
         {
-            name: 'Appointments',
+            name: 'Entry3',
             value: 4
         },
         {
-            name: 'Call Scoring',
+            name: 'Entry4',
             value: '57%'
         }
     ];
